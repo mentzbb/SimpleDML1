@@ -5,7 +5,7 @@ For an overview of Mentz, see the [Blog Post](http://bobbuzzard.blogspot.com/201
  
 This challenge is based on the Apex Data Manipulation Language.
 
-The following Trailhead module introduces DML (Apex Basics & Database)[https://trailhead.salesforce.com/en/content/learn/modules/apex_database]
+The following Trailhead module introduces DML [Apex Basics & Database](https://trailhead.salesforce.com/en/content/learn/modules/apex_database)
 
 ## Taking the Challenge
 
