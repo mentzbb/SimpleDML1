@@ -26,12 +26,4 @@ private class SimpleDML1_Test
 
         System.assertEquals(opps[0].id, opps[0].Name, 'Expected opportunity name to match id');
     }
-
-
-    @IsTest
-    static void TestNoSOQL() {
-        SimpleDML1 sdml1=new SimpleDML1();
-        Id accountId=sdml1.CreateAccountAndOpportunity();
-        System.assertEquals(0, Limits.getQueries(), 'You cannot use any SOQL queries to pass this challenge');
-    }
 }

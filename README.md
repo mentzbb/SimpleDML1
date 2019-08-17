@@ -25,6 +25,11 @@ if you don't want to deploy the code, you can carry out a check deployment and e
 
 `sfdx force:source:deploy -l RunSpecifiedTests -r SimpleDML1_Test -c -u <username> -p ./force-app/`
 
+If you can figure out how to take the challenge without using SOQL, add SimpleDML1_NoSOQLTest to your test run:
+
+`sfdx force:source:deploy -l RunSpecifiedTests -r SimpleDML1_Test,SimpleDML1_NoSOQLTest -c -u <username> -p ./force-app/`
+
+
 ## Publishing the solution
 
 Ensure you have installed the [MENTZ sfdx plugin](https://www.npmjs.com/package/mentz).
