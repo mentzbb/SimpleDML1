@@ -11,7 +11,8 @@ public with sharing class SimpleDML1 {
     //
     // - Return the Id of the new Account record
     //
-    // Do not use any SOQL statements
+    // Extra credit if you can do this without using SOQL queries
+    //
     public Id CreateAccountAndOpportunity()
     {
         return null;
